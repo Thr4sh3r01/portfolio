@@ -1,0 +1,48 @@
+* {
+    background-color: #292F36;
+    font-family: ubuntu;
+    color: #FFFF;
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url(./../../fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: IBM;
+    src: url(./../../fonts/IBMPlexMono-Regular.ttf);
+}
+
+.contenedor1 {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: IBM;
+}
+
+li {
+    margin-right: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+    border-bottom-color: black;
+}
+
+.Logo {
+    color: #12F7D6;
+}
+
+.search-box {
+    color: black;
+    border-radius: 30px;
+    background-color: white;
+    height: 30px;
+    width: 140px;
+}
