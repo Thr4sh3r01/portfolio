@@ -32,7 +32,6 @@ header {
     margin: 20px;
     padding-right: 70px;
     padding-left: 70px;
-    border-bottom-color: black;
 }
 
 .Logo {
@@ -45,4 +44,42 @@ header {
     background-color: white;
     height: 30px;
     width: 140px;
+}
+
+hr {
+    margin-left: 80px;
+    margin-right: 100px;
+}
+
+.titulo {
+    font-family: ubuntu;
+    font-size: 40px;
+    text-align: center;
+    color: #12F7D6;
+}
+
+.centro-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-left: 20px;
+}
+
+.mifoto {
+    width: 500px;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+#etiqueta1 {
+    font-size: 10px;
+    color: #12F7D6;
+    font-family: ubuntu;
+}
+
+#etiqueta2 {
+    font-size: 10px;
+    color: #12F7D6;
+    float: right;
+    font-family: ubuntu;
 }
