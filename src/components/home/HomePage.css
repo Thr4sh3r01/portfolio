@@ -49,13 +49,19 @@ header {
 hr {
     margin-left: 80px;
     margin-right: 100px;
+    box-shadow: 0px 0px 10px #12F7D6;
 }
 
 .titulo {
     font-family: ubuntu;
     font-size: 40px;
     text-align: center;
+    position: relative;
     color: #12F7D6;
+    text-shadow: 0px 0px 10px #12F7D6,
+                 0px 0px 20px #12F7D6,
+                 0px 0px 40px #12F7D6,
+                 0px 0px 80px #12F7D6;
 }
 
 .centro-main {
@@ -67,8 +73,9 @@ hr {
 }
 
 .mifoto {
-    width: 500px;
-    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    width: 300px;
+    margin-left: 200px;
+    clip-path: xywh(0 5px 85% 100% round 30% 0);
 }
 
 #etiqueta1 {
@@ -82,4 +89,8 @@ hr {
     color: #12F7D6;
     float: right;
     font-family: ubuntu;
+}
+
+.skills {
+    margin-right: 100px;
 }
