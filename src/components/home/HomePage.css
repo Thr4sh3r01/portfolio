@@ -16,6 +16,7 @@
 
 .contenedor1 {
     list-style: none;
+    font-size: 16px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -46,6 +47,12 @@ header {
     width: 140px;
 }
 
+.menu-icon {
+    margin-left: 5px;
+    float:inline-end;
+    margin-top: 2px;
+}
+
 hr {
     margin-left: 80px;
     margin-right: 100px;
@@ -62,6 +69,8 @@ hr {
                  0px 0px 20px #12F7D6,
                  0px 0px 40px #12F7D6,
                  0px 0px 80px #12F7D6;
+    -webkit-animation: tracking-in-expand 2s linear both;
+    animation: tracking-in-expand 2s linear both;
 }
 
 .centro-main {
@@ -72,10 +81,14 @@ hr {
     margin-left: 20px;
 }
 
+.talk {
+    font-size: 30px;
+    color:#12F7D6; 
+}
+
 .mifoto {
     width: 300px;
-    margin-left: 200px;
-    clip-path: xywh(0 5px 85% 100% round 30% 0);
+    margin-left: 100px;
 }
 
 #etiqueta1 {
@@ -91,6 +104,62 @@ hr {
     font-family: ubuntu;
 }
 
-.skills {
-    margin-right: 100px;
+ .skills-card {
+     background-color: #222;
+     border-radius: 20px;
+     padding: 20px;
+     color: #fff;
+     width: fit-content;
+    
+ }
+
+ .skills-card h2 {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     font-size: 18px;
+     color: #aaa;
+ }
+
+ .skills-card h1 {
+     margin-top: 5px;
+     margin-bottom: 5px;
+     font-size: 36px;
+     color: #0ff;
+ }
+
+
+/**
+ * ----------------------------------------
+ * Keyframe de la animación del titulo
+ * ----------------------------------------
+ */
+@-webkit-keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
